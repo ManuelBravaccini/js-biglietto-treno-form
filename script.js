@@ -14,6 +14,7 @@ button.addEventListener('click', function(){
         price = price - ((price / 100) * 33.3)
     }
     console.log(price)
+    document.getElementById('price').innerHTML = price.toFixed(2) + '&euro;';
 })
 
     
