@@ -1,8 +1,9 @@
-/*const inputDistance = document.querySelector(parseInt('input#distance'))
-const inputAge = document.querySelector(parseInt('input#age'))
-*/
+/*
 const distance = parseInt(prompt("Inserisci quanti kilometri vuoi fare"));
 const age = parseInt(prompt("Inserisci la tua età"));
+*/
+const distance = document.querySelector(parseInt('input#distance'))
+const age = document.querySelector(parseInt('input#age'))
 const button = document.querySelector('button')
 
 button.addEventListener('click', function(){
